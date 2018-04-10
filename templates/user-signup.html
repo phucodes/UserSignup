@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<form method="POST">
+        <h1> User Signup </h1>
+        <div class="box">
+          <label for="username">Username: </label>
+          <label for="username">Password: </label>
+          <label for="username">Verify Password: </label>
+          <label for="username">Email (Optional): </label>
+        </div>
+      
+          <div class="other-box">
+            <input type="text" name="username" value="">
+            <input type="text" name="password" value="">
+            <input type="text" name="password-conf" value="">
+            <input type="text" name="email" value="">
+      
+          </div>
+          <input type="submit" value="Submit">
+      
+      </form>
+
+{% endblock %}

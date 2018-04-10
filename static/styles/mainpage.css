@@ -1,0 +1,24 @@
+h1 {
+    width: 100%;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.other-box,
+.box {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-box input,
+.box label {
+    width: 100%;
+    margin: 10px 0;
+}
